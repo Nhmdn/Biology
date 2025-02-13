@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ thần kinh</title>
+    <style>
+         /* CSS goes here, at the top of the page */    
+
+        h1, h2  {
+            font-family: 'PT Sans', 'Helvetica', 'Arial';
+        }
+
+        html, body {
+            max-width: 100%;
+	    height: 100%;
+            margin: 0;
+	    padding: 0;
+            font-family: 'PT Serif', 'Helvetica', 'Arial', 'Lobster';
+	    background:#CCCCCC;	
+        }
+    #menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index:1000;	
+	}	
+        #top-bar {
+            width: 100%;
+            background: #424242; 
+            border-bottom: 1px solid #4CAF50; /* dark gray "underline" */
+            height: 5px;
+        }
+        .heading{
+            width: 100%;
+	    margin: 0;
+            padding: 15 50 35;
+	    background:#F1F1F1;
+	    height: 70px;
+	}
+       
+	
+        .logo-icon {
+            width: 60px; /* Đặt kích thước cho logo */
+            height: auto;
+            float: left;
+	    margin-left: 10px;
+        }
+        h1 {
+            float: left;
+            margin: 21px 0 0 25px;
+	    margin-left: 5px;
+	    color: #666666;
+        }
+        #navbar {
+            list-style-type: none; /* remove bullet points */
+            margin: 24px 0 0 0;
+            padding: 0;
+            float: right;
+            font-size: 16pt;
+            background: #F1F1F1;
+            margin-right: 10px;	
+        }
+        #navbar li {
+            display: inline; /* make items horizontal */
+	    font-size: 18px;
+        }
+        #navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+            text-decoration: none; /* remove underline */
+            color: #666666;
+            padding: 0 16px 0 10px; /* space links apart */
+            margin: 0;
+            border-right: 2px solid #B4B4B4; /* divider */
+        }
+        #navbar li a:link.last-link {
+            /* remove divider */
+            border-right: 0px;
+        }
+	#navbar li a:hover { 
+  	  /* change color on hover (mouseover) */ 
+   	 color:  #4CAF50;
+	}
+
+        #top-color-splash {
+            width: 100%;
+            height: 2px;
+            background:  #669933;
+        }
+ 	#footer {
+  		width: 100%; 
+   		background: #333;
+    		border-top: 5px solid  #669933; 
+   		height: auto; 
+		display: flex; /* Sử dụng flexbox */
+    		flex-direction: column; /* Căn chỉnh theo chiều dọc */
+    		justify-content: center; /* Căn giữa theo chiều dọc */	
+		color: #FFFFFF; 
+		bottom: 0;	
+        }  
+	.footer-content{ margin-left: 100px; font-size: 10px;}
+.container {
+  width: 70%; /* Chiều rộng container sẽ chiếm 70% của màn hình */
+  margin: 80px auto 0 auto ; /* Đặt container vào giữa màn hình */
+  background-color: white; /* Nền trắng cho nội dung */
+  padding: 20px; /* Khoảng cách giữa nội dung và biên ngoài */
+  box-sizing: border-box; /* Bao gồm padding trong chiều rộng */
+  line-height: 1.5;
+}
+.content{color: #555555;}
+.header{color:#009900;}
+</style>
+</head>
+<body>
+ <div id="menu">
+    <div id="top-bar"></div>	
+    <div class="heading">
+        <div id="logo-container">
+	   <a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html" target="_blank">
+            <img src="logo.png" alt="Biopedia Logo" class="logo-icon">
+	   </a>
+           <h1>Biopedia</h1>
+        </div>
+
+        <ul id="navbar">
+              <li><a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html">Trang chủ</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hethankinh.html" target="_blank">Hệ thần kinh</a></li>
+	    <li><a href="" class="last-link">Neuron</a></li>
+
+
+
+        </ul>
+    </div>
+
+    <div id="top-color-splash"></div>
+</div>
+
+  <div class="container">
+   <div class="content">
+   <h2 style="font-size:30px"  class="header">Hệ thần kinh</h2>
+
+
+<p><b class="header" style="font-size: 20px">Neuron, đơn vị cấu tạo của hệ thần kinh</b><br>
+<br><p><b class="header">Neuron</b> là tế bào thần kinh có khả năng cảm ứng, phát sinh xung thần kinh và dẫn truyền xung điện này. Neuron là đơn vị cơ bản cấu tạo hệ thần kinh của hầu hết các loài động vật và là thành phần quan trọng bậc nhất của não. Thân và sợi nhánh của các neuron tạo thành chất xám. Sợi trục (nếu đi chung với nhau thành bó gọi là dây thần kinh) cấu tạo chất trắng trong não. Ước tính có khoảng 100 tỷ neuron và 100 nghìn tỷ synapse trong não người.</p></br>
+<p><b class="header">Cấu tạo:</b> Mỗi neuron gồm một thân chứa nhân, hình sao nhiều cạnh hoặc bầu dục và các sợi. Từ thân phát đi nhiều tua (sợi) ngắn phân nhánh như cành cây gọi là sợi nhánh và một tua dài, mảnh gọi là sợi trục. Dọc sợi trục có thể có những tế bào Schwann bao bọc tạo nên bao myelin. Sợi trục nối giữa trung ương thần kinh với các cơ quan, chúng đi chung với nhau thành từng bó gọi là dây thần kinh. Khoảng cách giữa các bao này có những đoạn ngắn gọi là eo Ranvier, còn diện tích tiếp xúc giữa những nhánh nhỏ phân từ tận cùng sợi trục của neuron này với sợi nhánh của neuron khác hoặc cơ quan thụ cảm gọi là synapse.</p>
+<img src="https://www.simplypsychology.org/wp-content/uploads/Neuron.jpg" width="700px" style="margin-left: 100px">
+<p>Neuron có nhiều hình dạng: 
+<ul><li><span class="header">Neuron đa cực</span> có thân nhiều sợi nhánh.</li></ul>
+<ul><li><span class="header">Neuron lưỡng cực</span> với một sợi nhánh và một sợi trục đối diện nhau.</li></ul>
+<ul><li><span class="header">Neuron đơn cực</span> chỉ có một tua do sợi nhánh và sợi trục hợp lại mà thành.</li></ul></p>
+<img src="https://qbi.uq.edu.au/files/27928/types-of-neurons-QBI.jpg" width="700px" style="margin-left: 70px">
+
+<p>Chức năng cơ bản của neuron là cảm ứng và dẫn truyền xung thần kinh dưới dạng các tín hiệu hóa học. Từ đó neuron chia làm ba loại:
+<ul><li><i class="header">Neuron hướng tâm (Neuron cảm giác):</i> có thân nằm ngoài trung ương thần kinh dẫn xung thần kinh về trung ương thần kinh.</li></ul>
+<ul><li><i class="header">Neuron trung gian (Neuron liên lạc) :</i> nằm trong trung ương thần kinh, gồm những sợi hướng tâm và li tâm, làm nhiệm vụ liên lạc.</li></ul>
+<ul><li><i class="header">Neuron li tâm (Neuron vận động):</i> có thân nằm trong trung ương thần kinh (hoặc ở hạch thần kinh sinh dưỡng), dẫn các xung li tâm từ bộ não và tủy sống đến các cơ quan phản ứng để gây ra sự vận động hoặc bài tiết.</li></ul></p>
+<p>Neuron là những tế bào dài nhất trong cơ thể, biệt hóa cao độ nên mất trung thể và khả năng phân chia, nhưng đổi lại nó có khả năng tái sinh phần cuối sợi trục nếu bị tổn thương.</p></br>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240105103645/Types-of-Nueron.png" width="700px" style="margin-left: 70px">
+
+
+
+
+</div></div>
+<div id="footer"><div class="footer-content"><p>Nmd.hsgs@12368</p></div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ hô hấp</title>
+    <style>
+         /* CSS goes here, at the top of the page */    
+
+        h1, h2  {
+            font-family: 'PT Sans', 'Helvetica', 'Arial';
+        }
+
+        html, body {
+            max-width: 100%;
+	    height: 100%;
+            margin: 0;
+	    padding: 0;
+            font-family: 'PT Serif', 'Helvetica', 'Arial', 'Lobster';
+	    background:#CCCCCC;	
+        }
+    #menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index:1000;	
+	}	
+        #top-bar {
+            width: 100%;
+            background: #424242; 
+            border-bottom: 1px solid #4CAF50; /* dark gray "underline" */
+            height: 5px;
+        }
+        .heading{
+            width: 100%;
+	    margin: 0;
+            padding: 15 50 35;
+	    background:#F1F1F1;
+	    height: 70px;
+	}
+       
+	
+        .logo-icon {
+            width: 60px; /* Đặt kích thước cho logo */
+            height: auto;
+            float: left;
+	    margin-left: 10px;
+        }
+        h1 {
+            float: left;
+            margin: 21px 0 0 25px;
+	    margin-left: 5px;
+	    color: #666666;
+        }
+        #navbar {
+            list-style-type: none; /* remove bullet points */
+            margin: 24px 0 0 0;
+            padding: 0;
+            float: right;
+            font-size: 16pt;
+            background: #F1F1F1;
+            margin-right: 10px;	
+        }
+        #navbar li {
+            display: inline; /* make items horizontal */
+	    font-size: 18px;
+        }
+        #navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+            text-decoration: none; /* remove underline */
+            color: #666666;
+            padding: 0 16px 0 10px; /* space links apart */
+            margin: 0;
+            border-right: 2px solid #B4B4B4; /* divider */
+        }
+        #navbar li a:link.last-link {
+            /* remove divider */
+            border-right: 0px;
+        }
+	#navbar li a:hover { 
+  	  /* change color on hover (mouseover) */ 
+   	 color:  #4CAF50;
+	}
+
+        #top-color-splash {
+            width: 100%;
+            height: 2px;
+            background:  #669933;
+        }
+ 	#footer {
+  		width: 100%; 
+   		background: #333;
+    		border-top: 5px solid  #669933; 
+   		height: auto; 
+		display: flex; /* Sử dụng flexbox */
+    		flex-direction: column; /* Căn chỉnh theo chiều dọc */
+    		justify-content: center; /* Căn giữa theo chiều dọc */	
+		color: #FFFFFF; 
+		bottom: 0;	
+        }  
+	.footer-content{ margin-left: 100px; font-size: 10px;}
+.container {
+  width: 70%; /* Chiều rộng container sẽ chiếm 70% của màn hình */
+  margin: 80px auto 0 auto ; /* Đặt container vào giữa màn hình */
+  background-color: white; /* Nền trắng cho nội dung */
+  padding: 20px; /* Khoảng cách giữa nội dung và biên ngoài */
+  box-sizing: border-box; /* Bao gồm padding trong chiều rộng */
+  line-height: 1.5;
+}
+.content{color: #555555;}
+.header{color:#009900;}
+.highlight{ color: #009900;}
+  </style>
+</head>
+<body>
+ <div id="menu">
+    <div id="top-bar"></div>	
+    <div class="heading">
+        <div id="logo-container">
+	   <a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html" target="_blank">
+            <img src="logo.png" alt="Biopedia Logo" class="logo-icon">
+	   </a>
+           <h1>Biopedia</h1>
+        </div>
+
+        <ul id="navbar">
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html">Trang chủ</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hevandong.html" target="_blank">Hệ vận động</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetieuhoa.html" target="_blank">Hệ tiêu hóa</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetuanhoan.html" target="_blank">Hệ tuần hoàn</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hehohap.html" target="_blank">Hệ hô hấp</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hethankinh.html" target="_blank" class="last-link">Hệ thần kinh</a></li>
+
+
+        </ul>
+    </div>
+
+    <div id="top-color-splash"></div>
+</div>
+
+  <div class="container">
+   <div class="content">
+   <h2 style="font-size: 3px" class="header">Hệ hô hấp</h2>
+    <p><b class="header" style="font-size: 24px">Điều hòa hô hấp</b></p>
+    <p><b class="header" style="font-size: 20px">I. Vai trò của CO2</b></p>
+	<p>Ở nồng độ bình thường, CO2 có tác dụng duy trì nhịp hô hấp cơ bản. CO2 thấp quá sẽ gây ngừng thở (cấp cứu người ngất bằng hỗn hợp carbogen 95% O2 và 5% CO2 tốt hơn O2 nguyên chất).</p>
+	<p>Khí CO2 tăng kích thích tăng hô hấp.</p>
+	<p><span class="header">Cơ chế:</span>
+	<ul><li>Nồng độ CO2 trong máu tăng sẽ đi qua hàng rào máu nào làm tăng nồng độ CO2 ở dịch kẽ ở hành não và dịch não tủy. CO2 sau đó thực hiện phản ứng trao đổi và phân ly ion làm tăng nồng độ ion H+, tác động vào khu vực nhận cảm hóa học hô hấp ở hành não.</li></ul>
+	<ul><li>Tác động vào các receptor nhận cảm hoá học ở xoang động mạch cảnh và quai động mạch chủ gây phản xạ tăng hô hấp.</li></ul>
+	<ul><li>Ở trẻ sơ sinh, do tuần hoàn nhau thai bị cắt, cơ thể chưa thải được CO2 và do cử động, CO2 trong máu tăng kích thích trung tâm hít vào gây nên tiếng khóc chào đời.</li></ul></p>
+<img src="https://trungtamthuoc.com/images/item/Sinh-ly-ho-hap-12.jpg" width="800px">
+<p><b class="header">Chú ý:</b> H+ không thể đi qua hàng rào máu não, do đó sự tăng nồng độ ion hydrogen trong máu ít tác động tới quá trình hô hấp hơn CO2.</p><br>
+    <p><b class="header" style="font-size: 20px">II. Vai trò của O2</b></p>
+<p>Sự thay đổi nồng độ O2 hầu như không có ảnh hưởng trực tiếp đến trung tâm hô hấp (mặc dù vậy, sự thay đổi nồng độ O2 có tác động gián tiếp, tác động thông qua cá hóa thụ thể ở ngoại vi, như được giải thích ở đoạn tiếp theo).</p>
+<p>Hệ thống đệm hemoglobin-oxygen cung cấp gần như thích hợp lượng O2 tới các mô ngay cả khi có sự thay đổi nồng độ O2 ở phổi từ một giá trị thấp khoảng 60 mm Hg lên một giá trị cao khoảng 1000 mm Hg. Do đó, ngoại trừ trong các điều kiện đặc biệt, lượng O2 tới mô luôn thích hợp ngay cả khi có những sự thay đổi khác nhau trong hệ thống thông khí phổi. </p>
+<p>Khi nồng độ oxy < 60 mmHg, kích thích vào các cảm thụ hoá học của động mạch cảnh và quai động mạch chủ, làm trung tâm hô hấp tăng tính mẫn cảm với CO2 gây tăng cả tần số và biên độ thở.</p>
+<p>Làm tăng thông khí phế nang lên 1,6 lần.</p>
+<p><b class="header">Lưu ý:</b> Nồng độ O2 không kích thích thụ thể hóa học trung ương mà chỉ kích thích thụ thể hóa học ngoại vi</p>
+
+<img src="https://yhoctructuyen.com/sinhly/lesson/10_Hohap/images/11_10_Hohap_clip_image005.jpg"width="750px" style="margin-left: 30px">
+
+</div></div>
+<div id="footer"><div class="footer-content"><p>Nmd.hsgs@12368</p></div>
+</body>
+</html>

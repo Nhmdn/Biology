@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ vận động</title>
+    <style>
+         /* CSS goes here, at the top of the page */    
+
+        h1, h2  {
+            font-family: 'PT Sans', 'Helvetica', 'Arial';
+        }
+
+        html, body {
+            max-width: 100%;
+	    height: 100%;
+            margin: 0;
+	    padding: 0;
+            font-family: 'PT Serif', 'Helvetica', 'Arial', 'Lobster';
+	    background:#CCCCCC;	
+        }
+    #menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index:1000;	
+	}	
+        #top-bar {
+            width: 100%;
+            background: #424242; 
+            border-bottom: 1px solid #4CAF50; /* dark gray "underline" */
+            height: 5px;
+        }
+        .heading{
+            width: 100%;
+	    margin: 0;
+            padding: 15 50 35;
+	    background:#F1F1F1;
+	    height: 70px;
+	}
+       
+	
+        .logo-icon {
+            width: 60px; /* Đặt kích thước cho logo */
+            height: auto;
+            float: left;
+	    margin-left: 10px;
+        }
+        h1 {
+            float: left;
+            margin: 21px 0 0 25px;
+	    margin-left: 5px;
+	    color: #666666;
+        }
+        #navbar {
+            list-style-type: none; /* remove bullet points */
+            margin: 24px 0 0 0;
+            padding: 0;
+            float: right;
+            font-size: 16pt;
+            background: #F1F1F1;
+            margin-right: 10px;	
+        }
+        #navbar li {
+            display: inline; /* make items horizontal */
+	    font-size: 18px;
+        }
+        #navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+            text-decoration: none; /* remove underline */
+            color: #666666;
+            padding: 0 16px 0 10px; /* space links apart */
+            margin: 0;
+            border-right: 2px solid #B4B4B4; /* divider */
+        }
+        #navbar li a:link.last-link {
+            /* remove divider */
+            border-right: 0px;
+        }
+	#navbar li a:hover { 
+  	  /* change color on hover (mouseover) */ 
+   	 color:  #4CAF50;
+	}
+
+        #top-color-splash {
+            width: 100%;
+            height: 2px;
+            background:  #669933;
+        }
+ 	#footer {
+  		width: 100%; 
+   		background: #333;
+    		border-top: 5px solid  #669933; 
+   		height: auto; 
+		display: flex; /* Sử dụng flexbox */
+    		flex-direction: column; /* Căn chỉnh theo chiều dọc */
+    		justify-content: center; /* Căn giữa theo chiều dọc */	
+		color: #FFFFFF; 
+		bottom: 0;	
+        }  
+	.footer-content{ margin-left: 100px; font-size: 10px;}
+.container {
+  width: 70%; /* Chiều rộng container sẽ chiếm 70% của màn hình */
+  margin: 80px auto 0 auto ; /* Đặt container vào giữa màn hình */
+  background-color: white; /* Nền trắng cho nội dung */
+  padding: 20px; /* Khoảng cách giữa nội dung và biên ngoài */
+  box-sizing: border-box; /* Bao gồm padding trong chiều rộng */
+  line-height: 1.5;
+}
+
+ .content{color: #555555;}
+.header{color:#009900;}
+
+  </style>
+</head>
+<body>
+ <div id="menu">
+    <div id="top-bar"></div>	
+    <div class="heading">
+        <div id="logo-container">
+	   <a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html" target="_blank">
+            <img src="logo.png" alt="Biopedia Logo" class="logo-icon">
+	   </a>
+           <h1>Biopedia</h1>
+        </div>
+
+        <ul id="navbar">
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html">Trang chủ</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hevandong.html" target="_blank">Hệ vận động</a></li>
+	    <li><a href="B%E1%BB%99%20x%C6%B0%C6%A1ng.html" class="last-link">Bộ xương</a></li>
+
+
+
+        </ul>
+    </div>
+
+    <div id="top-color-splash"></div>
+</div>
+
+  <div class="container">
+    <div class="content">
+    <h2 style="font-size:30px" class="header">Hệ vận động</h2>
+    
+   <p>
+    <b class="header" style="font-size: 23px">Bộ xương</b></p>
+   <p>Căn cứ vào hình dạng cấu tạo, người ta phân biệt bốn loại xương là:</p>
+<p><ul><li><i class="header">Xương dài:</i> cấu trúc hình ống, có mô xương xốp ở hai đầu xương, giữa chứa tủy đỏ</a> ở trẻ em và chứamỡ</a> vàng ở người trưởng thành như xương cánh tay, xương đùi</a>, xương cẳng chân</a>,... Loại xương này có nhiều nhất.</li>
+<li><i class="header">Xương ngắn:</i> kích thước ngắn, chẳng hạn như xương đốt sống, xương cổ chân, cổ tay,...</li>
+<li><i class="header">Xương dẹt:</i> hình bản dẹt, mỏng như xương bả vai, xương cánh chậu, các xương sọ. Loại xương này ít nhất.</li>
+<li><i class="header">Xương không đều (xương hình bất định)</i>: là những xương có hình thể phức tạp như xương hàm trên, xương thái dương, xương ở nền sọ.</li></ul>
+  </p>
+ <img src="https://cdn3.olm.vn/upload/img_teacher/0516/img_teacher_2023-05-16_64634d0518726.jpg" width="400px"  height="300px">
+  <p class="header">Các loại khớp:</p>
+  <p>
+<ul><li><i class="header">Khớp động</i> là loại khớp cử động dễ dàng và phổ biến nhất trong cơ thể người như khớp xương đùi và xương chày, khớp xương cánh chậu và xương đùi. Mặt khớp ở mỗi xương có một lớp sụn trơn, bóng và đàn hồi, có tác dụng làm giảm sự cọ xát giữa hai đầu xương. Giữa khớp có một bao đệm chứa đầy chất dịch nhầy do thành bao tiết ra gọi là bao hoạt dịch. Bên ngoài khớp động là những dây chằng dai và đàn hồi, đi từ đầu xương này qua đầu xương kia làm thành bao kín để bọc hai đầu xương lại. Nhờ cấu tạo đó mà loại khớp này cử động dễ dàng. Khớp động phức tạp nhất trong cơ thể người là khớp gối.</li></ul>
+<ul><li><i class="header">Khớp bán động</i> là loại khớp mà giữa hai đầu xương khớp với nhau thường có một đĩa sụn làm hạn chế cử động của khớp. Khớp bán động điển hình là khớp đốt sống, ngoài ra còn có khớp háng. Ở trẻ em, có xương chậu...các đĩa sụn rất đàn hồi nên dễ uốn lưng mềm mại hay xoạc chân ra dễ dàng. Trái lại ở người trưởng thành và nhất là người già, các đĩa sụn dẹp lại làm cột sống khó cử động hơn, xoạc chân ra khó khăn.</li></ul>
+<ul><li><i class="header">Khớp bất động:</i> Trong cơ thể có một số xương được khớp cố định với nhau, như xương hộp sọ và một số xương mặt. Các xương này khớp với nhau nhờ các răng cưa nhỏ hoặc do những mép xương lợp lên nhau kiểu vảy cá nên khi cơ co không làm khớp cử động.</li></ul>
+<ul><li>Trong cơ thể con người có tất cả 360 khớp xương</li></ul>
+  </p>
+<img src="https://img.loigiaihay.com/picture/2023/0622/2_1.png">
+  <p class="header">Cấu tạo và sự phát triển của xương</p>
+<ul>
+  <li><i class="header">Cấu tạo và chức năng của xương:</i> Hai đầu xương là mô xương lồi có các xương xếp theo kiểu đường thẳng, phân tán lực tác động và tạo ô chứa tủy xương. Bọc hai đầu xương là lớp sụn để giảm các lực ma sát trong đầu xương. Đoạn giữa là trục xương. Thân xương hình trụ, cấu tạo từ ngoài vào trong có: màng bảo vệ mỏng, mô xương và khoang xương. Màng xương giúp xương phát triển về bề ngang. Mô xương cứng chịu lực, đảm bảo tính vững chắc cho xương. Khoang xương chứa tủy xương, ở trẻ em là tuỷ đỏ sinh hồng cầu; ở người trưởng thành tủy đỏ được thay bằng mô mỡ màu vàng gọi là tủy vàng.</li>
+</ul>
+<ul>
+  <li><i class="header">Cấu tạo xương ngắn và xương dẹt:</i> xương ngắn và xương dẹt không có cấu tạo hình ống, bên ngoài là mô xương cứng, bên trong lớp mô xương cứng là mô xương xốp gồm nhiều nan xương và hốc trống nhỏ (như mô xương xốp ở đầu xương dài) chứa tủy đỏ.</li>
+</ul>
+<p>Xương to ra về chiều ngang là nhờ các tế bào màng xương phân chia tạo ra những tế bào mới đẩy tế bào cũ vào trong rồi hóa xương. Xương dài ra là nhờ quá trình phân bào ở sụn tăng trưởng. 
+</p></br>
+   
+  
+</div></div>
+<div id="footer"><div class="footer-content"><p margin left="20px">Nmd.hsgs@12368</p></div>
+</body>
+</html>	

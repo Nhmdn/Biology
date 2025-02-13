@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Page</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!-- Liên kết phông chữ Lobster -->
+    <style>
+        /* CSS goes here, at the top of the page */    
+
+        h1, h2  {
+            font-family: 'PT Sans', 'Helvetica', 'Arial';
+        }
+
+        html, body {
+            max-width: 100%;
+	    height: 100%;
+            margin: 0;
+	    padding: 0;
+            font-family: 'PT Serif', 'Helvetica', 'Arial', 'Lobster';
+		
+        }
+	.normal-wrapper {
+            width:900px;
+            margin: 0 auto;
+            padding: 15px 40px;
+            overflow: auto;
+	    margin-top: 0px;
+	    height: 502px;
+        }
+    #menu {
+	position: fixed;
+	width: 100%;
+	margin-top: 0;
+	}	
+        #top-bar {
+            width: 100%;
+            background: #424242; 
+            border-bottom: 1px solid #4CAF50; /* dark gray "underline" */
+            height: 5px;
+        }
+        .heading{
+            width: 100%;
+	    margin: 0;
+            padding: 15 50 35;
+	    background:#F1F1F1;
+	    height: 70px;
+	}
+       
+	
+        .logo-icon {
+            width: 60px; /* Đặt kích thước cho logo */
+            height: auto;
+            float: left;
+	    margin-left: 10px;
+        }
+        h1 {
+            float: left;
+            margin: 21px 0 0 25px;
+	    margin-left: 5px;
+	    color: #666666;
+        }
+        #navbar {
+            list-style-type: none; /* remove bullet points */
+            margin: 24px 0 0 0;
+            padding: 0;
+            float: right;
+            font-size: 16pt;
+            background: #F1F1F1;
+            margin-right: 10px;	
+        }
+        #navbar li {
+            display: inline; /* make items horizontal */
+	    font-size:18px;
+        }
+        #navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+            text-decoration: none; /* remove underline */
+            color: #666666;
+            padding: 0 16px 0 10px; /* space links apart */
+            margin: 0;
+            border-right: 2px solid #B4B4B4; /* divider */
+        }
+        #navbar li a:link.last-link {
+            /* remove divider */
+            border-right: 0px;
+        }
+	#navbar li a:hover { 
+  	  /* change color on hover (mouseover) */ 
+   	 color:  #4CAF50;
+	}
+
+        #top-color-splash {
+            width: 100%;
+            height: 2px;
+            background:  #669933;
+        }
+        .one-third {
+            width: 40%;
+            float: left;
+            box-sizing: border-box; /* ensure padding and borders do not increase the size */
+            margin-top: 100px;
+        }
+        .two-third {
+            width: 60%;
+            float: left;
+            box-sizing: border-box; /* ensure padding and borders do not increase the size */
+            padding-left: 40px;
+            text-align: center; /* center align images */
+            margin-top: 100px;
+        }
+        .featured-image {
+            width: 400px;
+	    heigt: 400px;
+        }
+        .no-margin-top {
+            margin-top: 0; /* remove margin on things like headers */
+        }
+
+        h3 {    font-family: 'Lobster', sans-serif;
+			font-weight: normal;
+			font-size: 20pt;
+			margin-bottom: 1px;	
+		}
+	h4 {    font-family: 'Lobster', sans-serif;
+			font-weight: normal;
+			font-size: 16pt;
+			margin-top: 0;
+		}
+
+
+ 	#footer {
+  		align-items: center; /* Căn giữa theo chiều ngang */
+  		width: 100%; 
+   		background: #333;
+    		border-top: 5px solid  #669933; 
+   		height: auto; 
+		display: flex; /* Sử dụng flexbox */
+    		flex-direction: column; /* Căn chỉnh theo chiều dọc */
+    		justify-content: center; /* Căn giữa theo chiều dọc */	
+		color: #FFFFFF; 
+		bottom: 0;	
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+  <div id="menu">
+    <div id="top-bar"></div>	
+    <div class="heading">
+        <div id="logo-container">
+	   <a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html" target="_blank">
+            <img src="logo.png" alt="Biopedia Logo" class="logo-icon">
+	   </a>
+           <h1>Biopedia</h1>
+        </div>
+
+        <ul id="navbar">
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html">Trang chủ</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hevandong.html" target="_blank">Hệ vận động</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetieuhoa.html" target="_blank">Hệ tiêu hóa</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetuanhoan.html" target="_blank">Hệ tuần hoàn</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hehohap.html" target="_blank">Hệ hô hấp</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hethankinh.html" target="_blank" class="last-link">Hệ thần kinh</a></li>
+
+        </ul>
+    </div>
+
+    <div id="top-color-splash"></div>
+</div>
+    <div class="normal-wrapper">
+        <div class="one-third">
+            <h1 class="no-margin-top" style="color:#009900">Lời giới thiệu!</h1><br><br><br>
+            <p>Website được lập nên với mong muốn chia sẻ thông tin, kiến thức về sinh học cơ thể người cho các bạn học sinh yêu thích sinh học:</p>
+            <p>+ Tổng hợp kiến thức ngắn gọn, cung cấp kiến thức tổng quát và dễ hiểu.</p>
+            <p>+ Hình ảnh sinh động: Hình ảnh luôn là một công cụ hỗ trợ đắc lực cho quá trình học, tạo cái nhìn trực quan giúp học sinh ghi nhớ kiến thức tốt hơn thay vì kênh chữ dài dòng.</p>
+        </div>
+        <div class="two-third">
+            <img id="f-image-1" class="featured-image" src="C:\Users\MY PC\Pictures\Saved Pictures\Intro.png" />
+            <img id="f-image-2" class="featured-image" src="https://media.labxchange.org/books/Anatomy_physiology_and_hygiene_1900_14592550228-350x403.jpg" />
+            <img id="f-image-3" class="featured-image" src="C:\Users\MY PC\Pictures\Saved Pictures\Human.jpg" />
+        </div>
+    </div>
+    
+  <div id="footer">
+        <h3>"It always seems impossible until it's done." </h3>
+        <h4>~Nelson Mandela~</h4>
+    </div>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			/* JavaScript goes here, at the bottom of the page */
+			$(document).ready(function() {
+			    // run once the page is ready
+			    var time = 1500;
+			    // get the image containers
+			    $im1 = $('#f-image-1');
+			    $im2 = $('#f-image-2');
+			    $im3 = $('#f-image-3');
+
+			    setInterval(function(){
+			    	// call function every x milliseconds (defined in time variable above)
+			    	changeImage();
+			    }, time);
+
+			    var currentImage = 1;
+
+			    function changeImage(){
+			    	switch(currentImage) {
+					    case 1:
+					        // show image 2
+					    	$im1.hide();
+					    	$im2.show();
+					    	$im3.hide();
+					        currentImage = 2;
+					        break;
+					    case 2:
+					    	// show image 3
+					    	$im1.hide();
+					    	$im2.hide();
+					    	$im3.show();
+					        currentImage = 3;
+					        break;
+					    default:
+					        // show image 1
+					    	$im1.show();
+					    	$im2.hide();
+					    	$im3.hide();
+					        currentImage = 1;
+					}
+			    }
+			});
+		</script>
+
+</body>
+</html>

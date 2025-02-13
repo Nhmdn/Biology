@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ vận động</title>
+    <style>
+         /* CSS goes here, at the top of the page */    
+
+        h1, h2  {
+            font-family: 'PT Sans', 'Helvetica', 'Arial';
+        }
+
+        html, body {
+            max-width: 100%;
+	    height: 100%;
+            margin: 0;
+	    padding: 0;
+            font-family: 'PT Serif', 'Helvetica', 'Arial', 'Lobster';
+	    background:#CCCCCC;	
+        }
+    #menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index:1000;	
+	}	
+        #top-bar {
+            width: 100%;
+            background: #424242; 
+            border-bottom: 1px solid #4CAF50; /* dark gray "underline" */
+            height: 5px;
+        }
+        .heading{
+            width: 100%;
+	    margin: 0;
+            padding: 15 50 35;
+	    background:#F1F1F1;
+	    height: 70px;
+	}
+       
+	
+        .logo-icon {
+            width: 60px; /* Đặt kích thước cho logo */
+            height: auto;
+            float: left;
+	    margin-left: 10px;
+        }
+        h1 {
+            float: left;
+            margin: 21px 0 0 25px;
+	    margin-left: 5px;
+	    color: #666666;
+        }
+        #navbar {
+            list-style-type: none; /* remove bullet points */
+            margin: 24px 0 0 0;
+            padding: 0;
+            float: right;
+            font-size: 16pt;
+            background: #F1F1F1;
+            margin-right: 10px;	
+        }
+        #navbar li {
+            display: inline; /* make items horizontal */
+	    font-size: 18px;
+        }
+        #navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+            text-decoration: none; /* remove underline */
+            color: #666666;
+            padding: 0 16px 0 10px; /* space links apart */
+            margin: 0;
+            border-right: 2px solid #B4B4B4; /* divider */
+        }
+        #navbar li a:link.last-link {
+            /* remove divider */
+            border-right: 0px;
+        }
+	#navbar li a:hover { 
+  	  /* change color on hover (mouseover) */ 
+   	 color:  #4CAF50;
+	}
+
+        #top-color-splash {
+            width: 100%;
+            height: 2px;
+            background:  #669933;
+        }
+ 	#footer {
+  		width: 100%; 
+   		background: #333;
+    		border-top: 5px solid  #669933; 
+   		height: auto; 
+		display: flex; /* Sử dụng flexbox */
+    		flex-direction: column; /* Căn chỉnh theo chiều dọc */
+    		justify-content: center; /* Căn giữa theo chiều dọc */	
+		color: #FFFFFF; 
+		bottom: 0;	
+        }  
+	.footer-content{ margin-left: 100px; font-size: 10px;}
+.container {
+  width: 70%; /* Chiều rộng container sẽ chiếm 70% của màn hình */
+  margin: 80px auto 0 auto ; /* Đặt container vào giữa màn hình */
+  background-color: white; /* Nền trắng cho nội dung */
+  padding: 20px; /* Khoảng cách giữa nội dung và biên ngoài */
+  box-sizing: border-box; /* Bao gồm padding trong chiều rộng */
+  line-height: 1.5;
+}
+
+ .content{color: #555555;}
+.header{color:#009900;}
+
+  </style>
+</head>
+<body>
+ <div id="menu">
+    <div id="top-bar"></div>	
+    <div class="heading">
+        <div id="logo-container">
+	   <a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html" target="_blank">
+            <img src="logo.png" alt="Biopedia Logo" class="logo-icon">
+	   </a>
+           <h1>Biopedia</h1>
+        </div>
+
+        <ul id="navbar">
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html">Trang chủ</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hevandong.html" target="_blank">Hệ vận động</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetieuhoa.html" target="_blank">Hệ tiêu hóa</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetuanhoan.html" target="_blank">Hệ tuần hoàn</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hehohap.html" target="_blank">Hệ hô hấp</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hethankinh.html" target="_blank" class="last-link">Hệ thần kinh</a></li>
+
+
+
+        </ul>
+    </div>
+
+    <div id="top-color-splash"></div>
+</div>
+
+  <div class="container">
+    <div class="content">
+    <h2 style="font-size:30px" class="header">Hệ vận động</h2>
+    <p>
+      <b class="header">Hệ vận động</b> ở con người gồm có hai phần: Phần thụ động gồm bộ xương và hệ liên kết các xương (khớp xương), phần vận động gồm có hệ cơ, hoạt động phụ thuộc hoàn toàn vào hệ thần kinh. Xương gồm 206 chiếc, dài ngắn khác nhau, hợp lại tạo thành bộ xương nâng đỡ cơ thể, che chở cho các nội quan khỏi những chấn thương lý học. Hệ cơ gồm khoảng 600 cơ tạo thành, là những cơ vân(hay cơ xương) bám vào hai đầu xương giúp cho cơ thể cử động. Nhờ hệ vận động mà cơ thể ta có hình dạng nhất định, thể hiện được những động tác lao động, biểu lộ được những cảm xúc của mình. Trải qua thời kì dài tiến hóa, hệ vận động người được coi là tiến hóa nhất trong sinh giới nói chung và giới Động vật nói riêng.
+    </p>
+
+   <br><p><b class="header">Cấu tạo của hệ vận động:</b>
+<ul><li><a href="B%E1%BB%99%20x%C6%B0%C6%A1ng.html" target="_blank">Bộ xương.</a></li></ul>
+<ul><li><a href="Hệ%20cơ.html" target="_blank">Hệ cơ.</a></li></ul>
+
+
+<img src="https://suckhoetrongtamtay.com/upload/files/tin-tuc/2023/2/17/17.4/cau-truc-he-van-dong-co-xuong-khop.webp" width="800px"> </div></div>
+<div id="footer"><div class="footer-content"><p margin left="20px">Nmd.hsgs@12368</p></div>
+</body>
+</html>	

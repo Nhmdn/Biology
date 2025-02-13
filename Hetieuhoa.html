@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hệ tiêu hóa</title>
+    <style>
+         /* CSS goes here, at the top of the page */    
+
+        h1, h2  {
+            font-family: 'PT Sans', 'Helvetica', 'Arial';
+        }
+
+        html, body {
+            max-width: 100%;
+	    height: 100%;
+            margin: 0;
+	    padding: 0;
+            font-family: 'PT Serif', 'Helvetica', 'Arial', 'Lobster';
+	    background:#CCCCCC;	
+        }
+    #menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index:1000;	
+	}	
+        #top-bar {
+            width: 100%;
+            background: #424242; 
+            border-bottom: 1px solid #4CAF50; /* dark gray "underline" */
+            height: 5px;
+        }
+        .heading{
+            width: 100%;
+	    margin: 0;
+            padding: 15 50 35;
+	    background:#F1F1F1;
+	    height: 70px;
+	}
+       
+	
+        .logo-icon {
+            width: 60px; /* Đặt kích thước cho logo */
+            height: auto;
+            float: left;
+	    margin-left: 10px;
+        }
+        h1 {
+            float: left;
+            margin: 21px 0 0 25px;
+	    margin-left: 5px;
+	    color: #666666;
+        }
+        #navbar {
+            list-style-type: none; /* remove bullet points */
+            margin: 24px 0 0 0;
+            padding: 0;
+            float: right;
+            font-size: 16pt;
+            background: #F1F1F1;
+            margin-right: 10px;	
+        }
+        #navbar li {
+            display: inline; /* make items horizontal */
+	    font-size: 18px;
+        }
+        #navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+            text-decoration: none; /* remove underline */
+            color: #666666;
+            padding: 0 16px 0 10px; /* space links apart */
+            margin: 0;
+            border-right: 2px solid #B4B4B4; /* divider */
+        }
+        #navbar li a:link.last-link {
+            /* remove divider */
+            border-right: 0px;
+        }
+	#navbar li a:hover { 
+  	  /* change color on hover (mouseover) */ 
+   	 color:  #4CAF50;
+	}
+
+        #top-color-splash {
+            width: 100%;
+            height: 2px;
+            background:  #669933;
+        }
+ 	#footer {
+  		width: 100%; 
+   		background: #333;
+    		border-top: 5px solid  #669933; 
+   		height: auto; 
+		display: flex; /* Sử dụng flexbox */
+    		flex-direction: column; /* Căn chỉnh theo chiều dọc */
+    		justify-content: center; /* Căn giữa theo chiều dọc */	
+		color: #FFFFFF; 
+		bottom: 0;	
+        }  
+	.footer-content{ margin-left: 100px; font-size: 10px;}
+.container {
+  width: 70%; /* Chiều rộng container sẽ chiếm 70% của màn hình */
+  margin: 80px auto 0 auto ; /* Đặt container vào giữa màn hình */
+  background-color: white; /* Nền trắng cho nội dung */
+  padding: 20px; /* Khoảng cách giữa nội dung và biên ngoài */
+  box-sizing: border-box; /* Bao gồm padding trong chiều rộng */
+  line-height: 1.5;
+}
+.content{color: #555555;}
+.header{color:#009900;}
+ 
+  </style>
+</head>
+<body>
+ <div id="menu">
+    <div id="top-bar"></div>	
+    <div class="heading">
+        <div id="logo-container">
+	   <a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html" target="_blank">
+            <img src="logo.png" alt="Biopedia Logo" class="logo-icon">
+	   </a>
+           <h1>Biopedia</h1>
+        </div>
+
+        <ul id="navbar">
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/New%20Text%20Document.html">Trang chủ</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hevandong.html" target="_blank">Hệ vận động</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetieuhoa.html" target="_blank">Hệ tiêu hóa</a></li>
+            <li><a href="file:///C:/Users/MY%20PC/Desktop/Hetuanhoan.html" target="_blank">Hệ tuần hoàn</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hehohap.html" target="_blank">Hệ hô hấp</a></li>
+	    <li><a href="file:///C:/Users/MY%20PC/Desktop/Hethankinh.html" target="_blank" class="last-link">Hệ thần kinh</a></li>
+
+
+        </ul>
+    </div>
+
+    <div id="top-color-splash"></div>
+</div>
+
+  <div class="container">
+   <div class="content">
+   <h2 class="header">Hệ tiêu hóa</h2>
+    <p>
+     <b class="header">Hệ tiêu hóa</b> là hệ thống các cơ quan quan trọng trong cơ thể, thực hiện chức năng tiêu hóa, phân giải và hấp thụ dinh dưỡng từ thức ăn tiêu thụ. Tuy nhiên, hệ thống tiêu hóa vẫn có nguy cơ mắc phải nhiều tình trạng rối loạn và bệnh lý như hội chứng ruột kích thích, viêm loét dạ dày tá tràng, viêm túi thừa… Các trường hợp tổn thương nghiêm trọng còn có thể dẫn đến nhiều biến chứng đáng lo ngại. Do đó, việc chủ động bảo vệ sức khỏe tiêu hóa thông qua chế độ ăn uống, sinh hoạt khoa học là thực sự cần thiết.</p>
+<img src="https://gcs.tripi.vn/public-tripi/tripi-feed/img/476874PzY/anh-mo-ta.png" >
+   <br><p>
+    <b class="header" style="font-size: 22px">I.Cấu tạo của hệ tiêu hóa</b></p>
+   <p>Các cơ quan chính cấu tạo nên hệ thống tiêu hóa được gọi là đường tiêu hóa, bao gồm: miệng, thực quản, dạ dày, ruột non, đại tràng, trực tràng và hậu môn. Hỗ trợ các cơ quan này trong suốt quá trình hoạt động là tuyến tụy, túi mật và gan.</p><br></br>
+  <img src="https://login.medlatec.vn//ImagePath/images/20220831/20220831_kham-tieu-hoa-1.png" style="margin-left: 10px">
+
+
+Miệng là nơi bắt đầu của đường tiêu hóa. Quá trình tiêu hóa bắt đầu trước khi nhai thức ăn. Cụ thể, tuyến nước bọt đã bắt đầu hoạt động mạnh mẽ khi mắt nhìn, mũi ngửi thấy thức ăn. Sau khi bắt đầu ăn, răng nhai thức ăn thành từng miếng nhỏ để hỗ trợ tiêu hóa dễ dàng hơn. Nước bọt trộn với thức ăn để bắt đầu phân giải thành dạng cơ thể có thể hấp thụ. Khi nuốt, lưỡi sẽ đưa thức ăn vào cổ họng và thực quản.</p><br>
+<img src="https://tambinh.vn/wp-content/uploads/2020/08/khoang-mieng-he-tieu-hoa.jpg" style="margin-left: 50px">
+
+<p><b class="header" style="font-size: 19px">2. Thực quản</b><br><br>
+Thực quản là một ống cơ nối cổ họng (hầu họng) với dạ dày. Thực quản dài khoảng 25cm và được lót bởi mô màu hồng ẩm gọi là niêm mạc. Thực quản di chuyển phía sau khí quản (khí quản), tim và trước cột sống. Các cơn co thắt cơ xảy ra trong thực quản được gọi là nhu động, có chức năng đưa thức ăn di chuyển đến dạ dày. Cơ vòng dưới thực quản (cơ vòng thực quản dưới) giãn ra để đưa thức ăn vào dạ dày. Khi ở trạng thái co thắt, cơ vòng này sẽ co lại, ngăn các chất trong dạ dày trào ngược vào thực quản.</p></br>
+<p><b class="header" style="font-size: 19px">3. Dạ dày</b><br><br>
+Dạ dày là một tạng rỗng, chứa enzym phân giải thức ăn thành dạng có thể hấp thụ được. Ngoài ra, các tế bào trong niêm mạc dạ dày cũng đồng thời tiết ra một loại axit mạnh, hỗ trợ quá trình phân giải. Khi thức ăn được xử lý hoàn tất, dạ dày sẽ tiếp tục giải phóng thức ăn vào ruột non.</p></br>
+<img src="https://image.voh.com.vn/voh/Image/2020/04/06/hetieuhoavanhungchucnangquantrongcuanovoh1_20200406162103.jpg?t=o" style="margin-left: 100px;">
+
+<p><b class="header" style="font-size: 19px">4. Ruột non</b><br>
+<p>Ruột non có độ dài khoảng sáu mét và là phần quan trọng nhất của quá trình tiêu hóa thức ăn.</p>
+<p>Ruột non có cấu tạo gồm: tá tràng, hỗng tràng và hồi tràng. Tá tràng là đoạn đầu tiên của ruột non nối dạ dày với ruột non. Tá tràng còn là nơi tiếp nhận dịch mật từ gan qua ống mật chủ, dịch tụy từ ống tụy chính. Hỗng tràng và hồi tràng nằm phía dưới ruột, thực hiện chức năng hấp thụ các chất dinh dưỡng vào máu. Nhu động ruột cũng đóng vai trò quan trọng trong việc di chuyển thức ăn dọc theo ruột non và trộn lẫn thức ăn với các dịch tiêu hóa. Thức ăn trong ruột non bắt đầu ở dạng bán rắn, sau khi đi qua ruột non sẽ chuyển thành dạng lỏng.</p>
+<img src="https://nutrihome.vn/wp-content/uploads/2024/10/he-tieu-hoa-02.jpg" style="margin-left: 10px">
+<p>Ba cơ quan chính đóng vai trò quan trọng trong quá trình tiêu hóa thức ăn của dạ dày và ruột non bao gồm:<p>
+<b class="header">Tuyến tụy:</b> Trong quá trình tiêu hoá thức ăn, tuyến tụy có chức năng sản xuất và tiết ra enzyme vào ruột non để phân hủy protein, chất béo và carbohydrate trong thức ăn.
+<b class="header">Gan:</b> Gan đóng vai trò quan trọng trong tiêu hóa bằng cách tiết dịch mật và lọc máu để hấp thụ các chất dinh dưỡng từ ruột non.
+<b class="header">Túi mật:</b> Túi mật có hình quả lê, nằm dưới gan, chứa dịch mật được sản xuất bởi gan. Trong quá trình tiêu hóa, khi cần phải lưu trữ, dịch mật từ gan sẽ được di chuyển đến túi mật thông qua ống mật. Khi ăn, túi mật sẽ co bóp để đẩy dịch mật xuống ruột non.</p></br>
+<p><b class="header" style="font-size: 19px">5. Tuyến tụy</b><br>
+<ul><li>Tuyến tụy nằm phía sau dạ dày ở vùng bụng trên bên trái, được bao quanh bởi các cơ quan khác gồm: ruột non, gan và lách. Tuyến tụy xốp và dài khoảng 15 – 25 cm, thực hiện đồng thời chức năng nội tiết và ngoại tiết.</li></ul>
+<ul><li>Tuyến tụy chứa các tuyến ngoại tiết sản xuất các enzyme quan trọng đối với tiêu hoá. Những enzyme này bao gồm: trypsin và chymotrypsi (tiêu hóa protein), amylase (tiêu hóa carbohydrate) và lipase (phân huỷ chất béo). Khi thức ăn vào dạ dày, các dịch tụy này được giải phóng vào một hệ thống ống dẫn lên đỉnh trong ống tụy chính.</li></ul>
+<ul><li>Tuyến tụy đồng thời cũng tạo ra insulin và glucagon truyền trực tiếp vào máu. Insulin là hormone chính thực hiện nhiệm vụ chuyển hóa đường trong cơ thể.Tuyến tụy duy trì mức đường huyết không đổi. Khi mức đường huyết quá cao, tuyến tụy sẽ tiết ra insulin. Ngược lại, khi mức đường huyết quá thấp thì tuyến tụy tiết ra glucagon.</li></ul></p></br>
+<p><b class="header" style="font-size: 19px">6. Đại tràng</b><br><br>
+<img src="https://media.istockphoto.com/id/1219489322/vi/vec-to/h%E1%BB%87-vi-sinh-%C4%91%C6%B0%E1%BB%9Dng-ru%E1%BB%99t-ch%C4%83m-s%C3%B3c-h%E1%BB%87-ti%C3%AAu-h%C3%B3a-vi-khu%E1%BA%A9n-%C4%91%C6%B0%E1%BB%9Dng-ru%E1%BB%99t-v%C3%A0-ch%E1%BA%BF-ph%E1%BA%A9m-sinh-h%E1%BB%8Dc-minh-h%E1%BB%8Da.jpg?s=612x612&w=0&k=20&c=i-3MiRrlM9XZtKW3qx2aQ917Xxm7JTBFmlgCFa1OZvw=" width= "absolute">
+
+<ul><li>Đại tràng thực hiện chức năng xử lý chất thải, đảm bảo quá trình đại tiện diễn ra dễ dàng, thuận tiện hơn. Cơ quan này là một ống cơ dài 182 cm, nối ruột non với trực tràng. Đại tràng được tạo thành từ manh tràng, bao gồm: Đại tràng lên, đại tràng ngang, đại tràng xuống và đại tràng sigma.</li></ul>
+<ul><li>Phân, hoặc chất thải còn sót lại từ quá trình tiêu hóa sẽ di chuyển qua đại tràng bằng nhu động, bắt đầu ở trạng thái lỏng và kết thúc ở dạng rắn. Phân đi qua đại tràng đã được loại bỏ nước hoàn toàn, được lưu trữ trong đại tràng sigma trước khi đi vào trực tràng 1 – 2 lần/ ngày.</li></ul>
+<ul><li>Thông thường, thời gian phân đi qua đại tràng mất khoảng 36 giờ. Phân chủ yếu chứa vi khuẩn và vụn thức ăn. Khi đại tràng đã chứa đầy phân, phân sẽ được đẩy xuống trực tràng để bắt đầu quá trình đào thải ra ngoài (đại tiện).</li></ul>
+<p><b class="header" style="font-size: 19px">7. Trực tràng</b><br><br>Trực tràng nối đại tràng với hậu môn, dài khoảng 20 cm. Cơ quan này nhận phân thải ra từ đại tràng, có thể tống phân ra ngoài hoặc giữ phân cho đến thời điểm thích hợp cần thải ra. Khi trực tràng chứa đầy hoặc bị căng, phản xạ đại tiện xảy ra. Nếu có thể, cơ thắt giãn ra, trực tràng co lại, thải các chất bên trong ra ngoài. Trong trường hợp ngược lại, cơ thắt sẽ co lại, trực tràng điều chỉnh để cảm giác khó chịu tạm thời biến mất.</p></br>
+<p><b class="header" style="font-size: 19px">8. Hậu môn</b><br><br>
+<ul><li>Hậu môn là phần cuối cùng của hệ tiêu hóa, nơi kết thúc hành trình của thức ăn. Hậu môn được tạo thành bởi các cơ sàn chậu và hai cơ thắt hậu môn, mỗi cơ thắt phụ trách một vai trò riêng biệt.</li></ul>
+<ul><li>Nhiệm vụ chính của hậu môn không chỉ là lưu trữ và loại bỏ phân, mà còn là sản xuất dịch nhầy giúp phân di chuyển một cách dễ dàng ra khỏi cơ thể và hấp thụ nước.</li></ul></p></br>
+<b class="header" style="font-size: 22px">II.Chức năng của hệ tiêu hóa</b></p>
+<p><b class="header">Hệ tiêu hóa</b> đóng vai trò quan trọng trong cơ thể, thực hiện các chức năng như tiêu hóa, phân giải và hấp thụ dinh dưỡng từ thức ăn. Tuy nhiên, hệ tiêu hóa vẫn có nguy cơ bị ảnh hưởng bởi nhiều vấn đề khác nhau như <b class="header">hội chứng ruột kích thích, viêm loét dạ dày tá tràng, viêm túi thừa</b> và những tổn thương có thể dẫn đến các biến chứng nghiêm trọng khác. Do đó, việc duy trì sức khỏe tiêu hóa thông qua chế độ ăn uống và lối sống là điều vô cùng quan trọng.</p>
+<img src="https://cdn3.olm.vn/upload/img_teacher/0516/img_teacher_2023-05-16_64634d0518726.jpg" width="400px"  height="300px">
+</div></div>
+<div id="footer"><div class="footer-content"><p>Nmd.hsgs@12368</p></div>
+</body>
+</html>
